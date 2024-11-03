@@ -4,7 +4,7 @@ DevOps Internship Challenge
 
 This repository contains a Dockerized web application built with Python and Nginx. The application demonstrates a simple setup of a Flask application behind an Nginx reverse proxy using Docker Compose.
 
-Table of Contents:
+## Table of Contents:
 
     .Project Structure
 
@@ -34,7 +34,7 @@ Table of Contents:
 ```
 
 
-Prerequisites:
+## Prerequisites:
 
 Ensure you have the following installed:
 
@@ -42,7 +42,7 @@ Ensure you have the following installed:
     .Docker Compose (v1.29+ recommended)
     .A web browser to view the application
 
-Setup Instructions:
+## Setup Instructions:
 
 1.  Clone the Repository
     git clone <repository-url>
@@ -63,7 +63,7 @@ Setup Instructions:
 
     Once the containers are running, open a web browser and go to http://localhost to view the application.
 
-Running the Application:
+## Running the Application:
 
 The docker-compose.yml file will launch two containers:
 
@@ -74,10 +74,10 @@ To stop the application:
 
     docker-compose down
 
-Screenshots:
+## Screenshots:
 
     Screenshot of the application running in the browser.
     Screenshot of logs from the Flask container to confirm it’s running.
 
-Issues Identified and Resolution:
+## Issues Identified and Resolution:
 Report attached along is summarizing all the issues identified and resolutions made.
