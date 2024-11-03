@@ -22,14 +22,15 @@ Table of Contents:
 
 Project Structure:
 .
-├── docker-compose.yml # Docker Compose file to manage multi-container application
+├── docker-compose.yml       # Docker Compose file to manage multi-container application
 ├── nginx/
-│ ├── Dockerfile # Dockerfile for Nginx container
-│ └── nginx.conf # Nginx configuration file
+│   ├── Dockerfile           # Dockerfile for Nginx container
+│   └── nginx.conf           # Nginx configuration file
 ├── python_app/
-│ ├── Dockerfile # Dockerfile for Python Flask container
-│ └── app.py # Python application code (Flask app)
-└── README.md # Documentation for the application
+│   ├── Dockerfile           # Dockerfile for Python Flask container
+│   └── app.py               # Python application code (Flask app)
+└── README.md                # Documentation for the application
+
 
 Prerequisites:
 
@@ -61,6 +62,7 @@ Setup Instructions:
     Once the containers are running, open a web browser and go to http://localhost to view the application.
 
 Running the Application:
+
 The docker-compose.yml file will launch two containers:
 
     1. Python Flask Application (on port 8000 internally)
