@@ -20,7 +20,8 @@ Table of Contents:
 
     .Issues Identified and Resolution
 
-```## Project Structure
+## Project Structure
+```
 .
 ├── docker-compose.yml       # Docker Compose file to manage multi-container application
 ├── nginx/
