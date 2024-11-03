@@ -20,7 +20,7 @@ Table of Contents:
 
     .Issues Identified and Resolution
 
-Project Structure:
+## Project Structure
 .
 ├── docker-compose.yml       # Docker Compose file to manage multi-container application
 ├── nginx/
@@ -30,6 +30,7 @@ Project Structure:
 │   ├── Dockerfile           # Dockerfile for Python Flask container
 │   └── app.py               # Python application code (Flask app)
 └── README.md                # Documentation for the application
+
 
 
 Prerequisites:
